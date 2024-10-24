@@ -1,0 +1,39 @@
+style.css
+
+.card {
+  background-color: #e4e7fd;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px; 
+}
+
+.background {
+  background-color: #e4e7fd;
+  color: black; 
+  padding: 20px;
+  text-align: center;
+  border-radius: 25px;
+
+  .social-links {
+    display: inline-flex; 
+    align-items: center;
+    gap: 10px; 
+  }
+
+  .social-links a {
+    text-decoration: none; 
+    color: #007BFF; 
+   
+  }
+
+  .social-links span {
+    margin: 0 8px;
+    color: #000;
+  }
+  .social-links a:first-child {
+    border-right: 1px solid #ccc; 
+  }
+  
